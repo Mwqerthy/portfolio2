@@ -22,8 +22,10 @@ import {
     carrent,
     jobit,
     tripguide,
-    threejs,
+    threejs
 } from "../assets";
+
+import { come } from '../assets';
 
 export const navLinks = [
     {
@@ -160,20 +162,20 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Lexi Pdf Reader",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "A Web-based Pdf Reader that has Ai word look up feature in to it.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "tailwind",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "openai",
                 color: "pink-text-gradient",
             },
         ],
@@ -181,47 +183,26 @@ const projects = [
         source_code_link: "https://github.com/",
     },
     {
-        name: "Job IT",
+        name: "Google Doc Chatting Extnesion",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Chat with your freinds while working on a shared google doc!",
         tags: [
             {
-                name: "react",
+                name: "",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "",
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
+        image: come,
         source_code_link: "https://github.com/",
-    },
-    {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
-            },
-            {
-                name: "css",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
-    },
+    }
 ];
 
 export { services, technologies, experiences, testimonials, projects };
